@@ -12,9 +12,10 @@ Cypress ist sehr ausführlich und verständlich dokumentiert. [Hier](https://doc
 
 ## Nutzung von Cypress
 [Hier](https://docs.cypress.io/guides/getting-started/opening-the-app#The-Launchpad) wird die Nutzung von Cypress beschrieben. Cypress can in den Browsern Google Chrome, Firefox und Electron verwendet werden.
+Die Konfigurationen für diesen Testlauf sind in der Datei *cypress.config.js* beschrieben.
 
 ## E2E Tests erstellen
-Mit Cypress können [E2E](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) Tests erstellt werden. Diese werden in einem Script dokumentiert und nacheinander ausgeführt. 
+Mit Cypress können [E2E](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) Tests erstellt werden. Diese werden in einem Script dokumentiert und nacheinander ausgeführt. Die einzelnen Testfälle werden in der Datei *spec.cy.js* definiert.
 
 ## Best Practices
 Cypress [beschreibt](https://docs.cypress.io/guides/references/best-practices#Selecting-Elements) die für eine korrektes Testing notwendigen Best Practices. Es wird empfohlen, jedem DOM-Objekt eine eindeutige Cypress-ID zu geben und es darüber im Testfall anzusprechen:
